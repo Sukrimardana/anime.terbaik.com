@@ -1,0 +1,64 @@
+h1 {
+  background: linear-gradient(to top, blue, red);
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 30px 60px rgba(0, 0, 0, 0.70);
+  animation: deg 2s ease forwards;
+}
+      @keyframes deg {
+    0% {
+      transform: perspective(800px) rotateX(-90deg) translateX(-100px); /* Miring ke bawah dan translasi awal */
+      opacity: 0;
+    }
+    100% {
+      transform: perspective(800px) rotateX(0deg) translateY(0); /* Kembali ke posisi normal */
+      opacity: 1;
+    }
+  }
+  h3 {
+    color: white;
+    font-size: 20px;
+  }
+  .anime {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .anime img{
+    width: 320px;
+    height: 200px;
+    border: 2px solid black;
+  }
+  .p1 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  p {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+   .heading2 {
+    background-color: #06b0b4;
+    padding: 20px;
+    overflow: hidden;
+    display: inline-block;
+  }
+.paragraf {
+  color: black;
+  text-align: center;
+  padding: 20px;
+  background-color: #ccc;
+  border: 2px solid #363938e9;
+}
+body {
+    background-image: url('HugeDomains_com.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Gambar tetap saat digulir */
+    margin: 0;
+    height: 100vh; /* Menetapkan tinggi body sejajar dengan tinggi layar */
+}
